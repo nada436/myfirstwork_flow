@@ -7,7 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say hello
-        run: echo "hi"
-
+        run: |
+          echo "hi"
+          echo "nada"
       - name: bye
         run: echo "bye"
